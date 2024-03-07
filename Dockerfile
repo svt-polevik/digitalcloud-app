@@ -4,5 +4,5 @@
 
 # -- Stage 1 -- #
 # Compile the app.
-mcr.microsoft.com/windows/servercore
+FROM mcr.microsoft.com/windows/servercore
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
